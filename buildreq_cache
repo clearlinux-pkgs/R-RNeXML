@@ -1,11 +1,16 @@
-2.1.1
+2.1.2
 R-XML
 R-ape
+R-coda
+R-deSolve
+R-geiger
 R-httr
 R-lazyeval
+R-mvtnorm
 R-pkgconfig
 R-plyr
 R-reshape2
+R-subplex
 R-tidyr
 R-uuid
 R-xml2
