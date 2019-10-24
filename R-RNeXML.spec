@@ -4,7 +4,7 @@
 #
 Name     : R-RNeXML
 Version  : 2.3.0
-Release  : 20
+Release  : 21
 URL      : https://cran.r-project.org/src/contrib/RNeXML_2.3.0.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/RNeXML_2.3.0.tar.gz
 Summary  : Semantically Rich I/O for the 'NeXML' Format
@@ -15,7 +15,6 @@ Requires: R-ape
 Requires: R-dplyr
 Requires: R-httr
 Requires: R-lazyeval
-Requires: R-phytools
 Requires: R-plyr
 Requires: R-reshape2
 Requires: R-stringi
@@ -37,6 +36,7 @@ BuildRequires : R-tidyr
 BuildRequires : R-uuid
 BuildRequires : R-xml2
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 Provides access to phyloinformatic data in 'NeXML' format. The package should
@@ -51,10 +51,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1564707245
+export SOURCE_DATE_EPOCH=1571894354
 
 %install
-export SOURCE_DATE_EPOCH=1564707245
+export SOURCE_DATE_EPOCH=1571894354
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
