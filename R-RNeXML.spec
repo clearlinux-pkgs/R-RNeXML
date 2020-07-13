@@ -4,7 +4,7 @@
 #
 Name     : R-RNeXML
 Version  : 2.4.5
-Release  : 30
+Release  : 31
 URL      : https://cran.r-project.org/src/contrib/RNeXML_2.4.5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/RNeXML_2.4.5.tar.gz
 Summary  : Semantically Rich I/O for the 'NeXML' Format
