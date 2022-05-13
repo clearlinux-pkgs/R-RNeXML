@@ -1,5 +1,5 @@
 PKG_NAME := R-RNeXML
-URL = https://cran.r-project.org/src/contrib/RNeXML_2.4.6.tar.gz
+URL = https://cran.r-project.org/src/contrib/RNeXML_2.4.7.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
